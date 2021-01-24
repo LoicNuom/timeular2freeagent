@@ -1,0 +1,33 @@
+{
+  "name": "timeular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./index.ts start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@node-cli-toolkit/oauth-cli": "^1.0.2",
+    "axios": "^0.21.1",
+    "cli-select": "^1.1.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "luxon": "^1.25.0",
+    "open": "^7.3.1",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.7",
+    "@types/express": "^4.17.11",
+    "@types/luxon": "^1.25.1",
+    "@types/node": "^14.14.22",
+    "@types/simple-oauth2": "^4.1.0",
+    "@types/yargs": "^15.0.12",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
